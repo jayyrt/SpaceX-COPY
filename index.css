@@ -1,10 +1,161 @@
-.title {
+body {
     width: auto;
     height: auto;
+    margin:0%;
+}
+.header {
+    margin-top: 12px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+#logo {
+    margin-left: 50px;
+    width: 235px;
+    height: 27px;
+    display: inline-block;
 }
 
 .links {
+    font-weight: bolder;
+    margin-left: 25px;
     width: auto;
     height: auto;
+    display: inline-block;
+    font-size: 11px;
+    color: black;
+    font-family: 'Teko', sans-serif;
 }
 
+.shop {
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-size: 11px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.first-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://telescope.live/sites/default/files/styles/fb_1200x630/public/2020-11/allfour.jpg?itok=wbnUfP1H);
+}
+
+.second-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.teslarati.com/wp-content/uploads/2019/09/Crew-Dragon-DM-1-orbit-tall-pano-SpaceX-crop-3.jpg);
+}
+
+.third-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://s.yimg.com/hd/cp-video-transcode/prod/2021-05/06/60939ab84cd7fe42b8d3a7bd/60939ab84cd7fe42b8d3a7be_o_U_v2.jpg);
+}
+
+.fourth-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://live.staticflickr.com/65535/50501515611_33c6d8d93f_b.jpg);
+}
+
+.fifth-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://1l0044267psh26mr7fa57m09-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/spacex-lander-web.jpg);
+}
+
+.sixth-section {
+    width: auto;
+    height: 600px;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url() 
+}
+
+.mission {
+    margin-left: 50px;
+    height: auto;
+    width: auto;
+    font-size: 17px;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.larger-content {
+    font-weight: bolder;
+    margin-left: 50px;
+    height: auto;
+    width: 400px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+.sentence {
+    margin-left: 50px;
+    font-size: 13px;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+button {
+    margin-left: 50px;
+    color: white;
+    border-color: white;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.certification {
+    font-size: 10px;
+    color: gray;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    width: auto;
+    text-align: center;
+}
+
+.footer-links {
+    color: white;
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
